@@ -1,0 +1,27 @@
+# robots.txt for LIYWAN
+# https://liywan.qa/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin
+Disallow: /staff
+Disallow: /client
+Disallow: /supervisor
+Disallow: /api/
+Disallow: /reset-password
+Disallow: /forgot-password
+
+# Allow public pages
+Allow: /
+Allow: /about
+Allow: /contact
+Allow: /how-it-works
+
+# Sitemap location
+Sitemap: https://liywan.qa/sitemap.xml
+
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 1
+
