@@ -1,0 +1,8 @@
+{
+  "name": "IVENTIA",
+  "description": "Premier Qatar-based Event & Staff Management Platform featuring AI-driven logistics, staffing, and executive dashboards.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
